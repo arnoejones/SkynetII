@@ -1,0 +1,46 @@
+#skynet-label{
+    color: orange;
+}
+#home-page-label{
+    color: green;
+    font-size: 50;
+
+#radio-page-label{
+    color: orange;
+    font-size: 55;
+}
+#table-header-div{
+    height: 50px;
+}
+
+#table-header-div{
+    background-color: #009ADA;
+    box-shadow: 0 3px 0 #006FBA;
+    color: blue;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#radio-page-label:hover{
+    text-decoration: underline;
+    background-color: #EF6918;
+    cursor: pointer;
+}
+#radio-page-label:active{
+    color: black;
+    box-shadow: none;
+    top:5px;
+}
+#radio-page-label:visited{
+    color: #ccc;
+}
+#home-page-label{
+
+    border: solid 2px;
+    background-color: #009ADA;
+    box-shadow: 0 3px 0 #006FBA;
+    color: blue;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

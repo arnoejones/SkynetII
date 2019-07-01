@@ -1,0 +1,27 @@
+<html>
+    <head>
+        {%block header%}
+        {%endblock%}
+
+        <link rel = "stylesheet", type="text/css" href="static/styles.css")>
+        {% if title %}
+        <title>Skynet: - {{ title }}</title>
+        {% else %}
+        <title>Welcome to Skynet!</title>
+        {% endif %}
+
+    </head>
+    <body>
+        <div class="menu-div">
+            <a href="/home">Home</a>
+            <a href="/radio">Query</a>
+            </h4>
+        </div>
+
+        <div class="container">
+            <img src="static/skynetoval.png">
+        </div>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
